@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Create Your Account</h2>
+        
+        <form action="login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="username">E-mail id:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="username">Password:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Retype Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br></br></br>
+            <button-1 type="submit">Create Account</button-1>
+        </form>
+    </div>
+    <style>body {
+      font-family: Arial, sans-serif;
+      background: rgb(2,0,36);
+      background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  }
+  
+  
+  .login-container {
+      background: rgba(255, 255, 255, 0.2);
+      height: 500px;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      text-align: center;
+      backdrop-filter: blur(50px);
+      -webkit-backdrop-filter: blur(50px);
+      border: 1px solid rgba(65, 65, 65, 0);
+  }
+  
+  h2 {
+      margin-bottom: 20px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 15px;
+      text-align: left;
+  }
+  
+  input {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 15px;
+      margin-left: 0px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      color: #000000;
+  }
+  
+  input::placeholder {
+      color: #fff;
+  }
+  
+  button-1, .google-btn {
+      width: 40%;
+      padding: 10px;
+      background-color: #00be10;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  button-2 {
+      width: 40%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  button-1:hover, .google-btn:hover {
+      background-color: #3cff77;
+  }
+  
+  button-2:hover {
+      background-color: #00438b;
+  }
+  
+  </style>
+</body>
+</html>
